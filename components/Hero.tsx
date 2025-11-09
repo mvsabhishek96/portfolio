@@ -24,12 +24,13 @@ export default function Hero() {
           className="card flex items-center justify-center"
         >
           <Image
-            src={`https://avatars.githubusercontent.com/u/0?v=4`}
-            alt="Avatar"
-            width={240}
-            height={240}
-            className="rounded-2xl"
-          />
+             src="/me.png"
+             alt="Abhishek"
+             width={240}
+             height={240}
+             className="rounded-2xl object-cover"
+           />
+
         </motion.div>
       </div>
     </section>
